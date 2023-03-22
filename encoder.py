@@ -16,7 +16,7 @@ def decode(string):
 
     print('The encoded password is ', string, ', and the original password is ',orig,'.')
     
-def main():
+def main():#main function comment
     while True:
         print('Menu\n-------------\n1. Encode\n2. Decode\n3. Quit\n')
         inp = int(input('Please enter an option: '))
